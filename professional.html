@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>professional</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+.tablestyle {
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-transform: uppercase;
+	margin-left: auto;
+	margin-right: auto;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('images/rollover_links/promo_video_text.png','images/rollover_links/flyer_text.png','images/rollover_links/drawing_text.png','images/rollover_links/airplane_text.png','images/rollover_links/cookbook_text.png')">
+<div id="wrapper">
+  <header class="headerfooter" id="header">Austin Jones
+    <p></p>
+  </header>
+  <div id="navigation">
+    <ul>
+      <li><a href="index.html" title="Home">Home</a></li>
+      <li><a href="personal.html" title="Personal">Personal</a></li>
+      <li><a href="professional.html" title="Professional">Professional</a></li>
+      <li><a href="resume.html" title="Resume">Resume</a></li>
+      
+    </ul>
+  </div>
+  <div id="main">
+    <p>The following is a small sampling of my work in various applications.</p>
+    <table width="78%" border="1" cellpadding="0" cellspacing="0" class="tablestyle">
+      <caption>
+        Work Samples
+      </caption>
+      <tr>
+        <td width="38%">Premier Elements</td>
+        <td width="62%"><a href="media/Fort Lone Tree Promo Video.mp4" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Video','','images/rollover_links/promo_video_text.png',1)"><img src="images/rollover_links/promo_video.png" alt="play video" width="90" height="61" id="Video" title="play video"></a></td>
+      </tr>
+      <tr>
+        <td>Photoshop</td>
+        <td><a href="media/Flyer Final letter.pdf" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('flyer','','images/rollover_links/flyer_text.png',1)"><img src="images/rollover_links/flyer.png" alt="flyer" width="90" height="89" id="flyer" title="flyer"></a></td>
+      </tr>
+      <tr>
+        <td>Illustrator</td>
+        <td><a href="media/River.jpg" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Drawing','','images/rollover_links/drawing_text.png',1)"><img src="images/rollover_links/drawing.png" alt="river" width="90" height="90" id="Drawing"></a></td>
+      </tr>
+      <tr>
+        <td>Flash</td>
+        <td><a href="media/Airplane Flight_AustinJones_Final.swf" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Flash','','images/rollover_links/airplane_text.png',1)"><img src="images/rollover_links/airplane.png" alt="Flash airplane" width="90" height="49" id="Flash"></a></td>
+      </tr>
+      <tr>
+        <td>InDesign</td>
+        <td><a href="media/AustinJones_Final_Cookbook.pdf" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('InDesign Book','','images/rollover_links/cookbook_text.png',1)"><img src="images/rollover_links/cookbook.png" alt="InDesign Cookbook" width="90" height="83" id="InDesign Book"></a></td>
+      </tr>
+    </table>
+    <p>&nbsp;</p>
+  </div><div id="sidebar">
+    <p>Austin Jones</p>
+    <p><br>
+      P.O. Box 1775<br>
+      Ruidoso, NM 88355</p>
+    <p>575-404-1158<br>
+    <a href="mailto:ajonestx@gmail.com" title="e-mail me">ajonestx@gmail.com</a></p>
+  </div>
+<div id="lower"></div>
+<div class="headerfooter" id="footer">Created by: Austin Jones</div>
+</div>
+</body>
+</html>
